@@ -1,0 +1,21 @@
+{
+    "name": "node-gumbo",
+    "version": "0.0.1",
+    "description": "Cnode C addon, wrapping google's gumbo html parser",
+    "keywords": [
+        "html", "parser", "google", "gumbo"],
+    "homepage": "https://github.com/plepers/node-gumbo",
+    "author": "Pierre Lepers <pierre.lepers@gmail.com> (https://github.com/plepers/)",
+    "main": "gumbo",
+    "scripts": {
+        "install": "node ./build.js",
+        "test": "node ./tests/test1.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:plepers/node-gumbo.git"
+    },
+    "engines": {
+        "node": ">=0.5.2"
+    }
+}
